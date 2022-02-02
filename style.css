@@ -1,0 +1,80 @@
+body {
+    background-image: url(img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+.container{
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: auto;
+    border-radius: 20px;
+    width: 65%;
+    height: 830px;
+    margin-top: 2%;
+}
+/*Qui vado a creare le dimensioni dell'area di lavoro*/
+.table{
+    width: 80%;
+    height: 100%;
+    padding: 5%;
+    margin: auto;
+}
+
+#logo{
+    padding-top: 7%;
+    width: 20%;
+    height: 20%;
+    display:block;
+    margin:0px auto;
+
+}
+
+.titolo{
+    color: lime;
+    text-align: center;
+    line-height: 20%;
+}
+
+.NavButton {
+    background-color: lime;
+    line-height: 35px;
+    text-align: center;
+}
+
+/*Per rendere piu` chiaro che siano tasti cliccabili, coloro il testo al passaggio 
+e trasformo il mouse in mouse in mano*/
+button:hover{
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+/*Utilizzo la classe NomeMono in modo tale da rendere il codice più fruibile in futuro
+ e lasciare h2 libero*/
+.NomeMono {
+    display: inline-block;
+    line-height: 10px;
+}
+ 
+/*Uso un selettore avanzato per non ripetere linee di codice*/
+.carica1, .carica2, .carica3 {
+    height: 20px;
+    border-radius: 5px;
+}
+
+/*Qui attribuisco i colori e la lunghezza dei div*/
+.carica1{
+    background-color: #ffc168;
+    width: 30%;
+}
+
+.carica2{
+    background-color:rgb(46, 235, 61);
+    width: 70%;
+}
+
+.carica3{
+    background-color:rgb(190, 49, 49);
+    width: 15%;
+}
